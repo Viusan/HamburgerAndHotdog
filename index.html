@@ -18,7 +18,10 @@
   <div id="fooddiv"></div>
 
   <div>
-    <input type="range" id="slider">
+    <input type="checkbox" onclick="sliderFunction()" id="checkbox" name="mustardCheck">
+    <label for="checkbox">Mustard?</label>
+    <input type="range" id="slider" disabled>
+    <h2 id="mustardField"></h2>
   </div>
 
   <script src="script.js"></script>
